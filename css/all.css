@@ -62,6 +62,13 @@ table {
 	background: #000;
 }
 
+@media (max-width: 768px) {
+	.menu {
+		float: none;
+		width: 100%;
+	}
+}
+
 .menu li {
 	margin-bottom: 20px;
 	color: #fff;
@@ -74,5 +81,10 @@ table {
 	color: #fff;
 }
 
+@media (max-width: 768px) {
+	.content {
+		margin-left: 0;
+	}
+}
 
 
