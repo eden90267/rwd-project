@@ -74,7 +74,10 @@ img{
 	color: #fff;
 }
 @media (max-width: 569px) {
-	.m-none {
-		display: none;
+	.container {
+		overflow-x: auto;
+	}
+	.order {
+		width: 768px;
 	}
 }
